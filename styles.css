@@ -1,0 +1,41 @@
+*{
+    margin: auto;
+    text-align: center;
+    font-family:Helvetica, sans-serif;
+}
+body{
+    background-image:url(phtb.jpg);
+}
+
+header, section{
+    padding: 5px;
+    /* background-color: rgb(52, 59, 113); */
+    /* background-image:url(phtb.jpg); */
+    color: #fdd8d8;
+}
+h1,h2{
+    text-align: center;
+    font-size: 3rem;
+}
+h2{
+ font-size: 1.5rem;
+}
+section{
+    /* padding-top: 20px; */
+    /* border: rgb(52, 59, 113) 5px solid; */
+    padding: 1%;
+
+}
+p{
+    border: red solid 1px;
+
+}
+footer {
+    text-align: right;
+    padding: 5px;
+    border-top: 10px white solid;
+    background-color: #fdd8d8;
+    color: black;
+}
+
+/* .aboutus{} */
