@@ -1,0 +1,67 @@
+*{
+    margin: auto;
+    padding: auto;
+    text-align: center;
+    font-family: "Josefin Sans","Trebuchet MS", Helvetica, sans-serif;
+    font-weight:bolder;
+    box-sizing:border-box;
+}
+body{
+    background-image:url(phtb.jpg);
+    background-size: 10%;
+}
+
+header, section{
+    padding: 5px;
+    /* background-color: rgb(52, 59, 113); */
+    /* background-image:url(phtb.jpg); */
+    color: #fdd8d8;
+}
+h1,h2{
+    text-align: center;
+    font-size: 3rem;
+}
+h2{
+ font-size: 1.5rem;
+}
+section{
+    /* padding-top: 20px; */
+    /* border: rgb(52, 59, 113) 5px solid; */
+    padding: 1%;
+
+}
+p{
+    width: 90%;
+    white-space: pre-line;
+    /* border: red solid 1px; */
+
+}
+footer {
+    text-align: right;
+    padding: 5px;
+    border-top: 10px white solid;
+    background-color: #fdd8d8;
+    color: black;
+}
+section.price p{
+    /* text-align: left; expeirmental */
+    /* padding-left: 20px;expeirmental */
+    /* text-align: justify; */
+    margin-top: 1em;
+    padding-top: 1em;
+    border: #fdd8d8 2px solid;
+    white-space: pre-line;
+    border-radius: 1em;
+    width: 80%;
+}
+a,
+a:active,
+a:hover,
+a:visited{
+    padding: 4px;
+    border: #000000 2px solid;
+    color: #000000;
+    border-radius: .5em;
+    text-decoration: none;
+}
+/* .aboutus{} */
