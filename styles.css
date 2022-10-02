@@ -1,10 +1,11 @@
 *{
     margin: auto;
     padding: auto;
-    text-align: center;
+    /* text-align: justify; */
     font-family: "Josefin Sans","Trebuchet MS", Helvetica, sans-serif;
     font-weight:bolder;
     box-sizing:border-box;
+    /* font-size:  2vw; */
 }
 body{
     background-image:url(phtb.jpg);
@@ -44,14 +45,14 @@ footer {
     color: black;
 }
 section.price p{
-    /* text-align: left; expeirmental */
-    /* padding-left: 20px;expeirmental */
-    /* text-align: justify; */
+    text-align: left; /*expeirmental*/
+    padding: 0 5em 0 1em; /*expeirmental*/
+
     margin-top: 1em;
     padding-top: 1em;
     border: #fdd8d8 2px solid;
     white-space: pre-line;
-    border-radius: 1em;
+    border-radius: .5em;
     width: 80%;
 }
 a,
@@ -65,3 +66,136 @@ a:visited{
     text-decoration: none;
 }
 /* .aboutus{} */
+.tzili_new *{
+    /* v this is for bug testing v */
+    /* border: red 1px solid; */
+
+}
+
+.tzili-sect{
+
+    /* background-image: url(test.png);
+    background-position: center;
+    background-size:cover; */
+    
+
+    margin: 50px;
+    padding: 25px;
+    border: #fdd8d8 2px solid;
+    white-space: pre-line;
+    border-radius: 10px;
+
+    backdrop-filter: blur(.15em);
+    color: #fdd8d8;
+    font-size:  2vw;
+        /* added */
+        box-shadow: 0px 0px 5px #fdd8d8;
+}
+.tzili-sect_hair-color{
+    font-size: 4vw;
+}
+.float-attempt-1{
+    height:50vw;
+    width: 100%;
+}
+.float-attempt-1_1{
+    float: left;
+    /* margin: 0 3%; */
+    width: 24%;
+}
+.float-attempt-1_2{
+    float: left;
+    /* margin: 0 3%; */
+    width: 24%;
+}
+.float-attempt-1_3{
+    float: left;
+    /* margin: 0 3%; */
+    width: 24%;
+}
+.float-attempt-1_4{
+    float: left;
+    /* margin: 0 3%; */
+    width: 24%;
+    box-sizing:content-box;
+}
+
+/* tziporah fogel section starts here. */
+.tziporah_new *{
+/* v This is for bug testing v */
+ /* border: red 1px solid; */
+}
+.tziporah-sect{
+
+    margin: 50px;
+    padding: 25px;
+    border: #fdd8d8 2px solid;
+    white-space: pre-line;
+    border-radius: 10px;
+
+    backdrop-filter: blur(.15em);
+    color: #fdd8d8;
+    font-size:  2vw;
+    /* added */
+    box-shadow: 0px 0px 5px #fdd8d8;
+}
+h2.tziporah-sect{
+    /* cant fgure out why the size is bigger probably has somthing
+     to do with view hight but cant easily fix. so problem for another day. */
+    /* font-size: 4vw; */
+}
+
+.float-attempt-2{
+    height:50vw;
+    width: 100%;
+}
+.float-attempt-2_1{
+    float: left;
+    width: 33%;
+}
+.float-attempt-2_2{
+    float: left;
+    width: 33%;
+}
+.float-attempt-2_3{
+    float: left;
+    width: 33%;
+}
+
+/* Beverly section starts here. */
+.beverly_new *{
+    /* v This is for bug testing v */
+     /* border: red 1px solid; */
+    }
+    .beverly-sect{
+    
+        margin: 50px;
+        padding: 25px;
+        border: #fdd8d8 2px solid;
+        white-space: pre-line;
+        border-radius: 10px;
+    
+        backdrop-filter: blur(.15em);
+        color: #fdd8d8;
+        font-size:  2vw;
+        /* added */
+        box-shadow: 0px 0px 5px #fdd8d8;
+    }
+    
+    .float-attempt-3{
+        height:50vw;
+        width: 100%;
+    }
+    .float-attempt-3_1{
+        float: left;
+        width: 50%;
+    }
+    .float-attempt-3_2{
+        float: left;
+        width: 50%;
+    }
+
+
+
+
+/* footer{} */
